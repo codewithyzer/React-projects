@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+body {
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 868px;
+  background-color: #23252C;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 317px;
+  height: 780px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+}
+
+.image-container img {
+  width: 100%;
+  height: 317px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+  color: #F5F5F5;
+  line-height: 30.26px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.occupation {
+  color: #F3BF99;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 18.49px;
+  text-align: center;
+}
+
+.website-name {
+  font-size: 10.24px;
+  font-weight: 300;
+  color: #F5F5F5;
+  line-height: 32.36px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  margin-bottom: 40px;
+}
+
+.email-button, .linkedin-button {
+  border-radius: 6px;
+  font-size: 12px;
+  width: 106px;
+  height: 34px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.email-button {
+  border: 1px solid #D1D5DB;
+}
+
+.email-button:hover {
+  background-color: #aaadb0;
+}
+
+.email-button:active {
+  opacity: 0.8;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+  border: none;
+  color: whitesmoke;
+}
+
+.linkedin-button:hover {
+  background-color: #4379b6;
+}
+
+.linkedin-button:active {
+  opacity: 0.8;
+}
+
+.buttons i {
+  margin-right: 5px;
+}
+
+.descriptions {
+  width: 230px;
+}
+
+.descriptions h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: whitesmoke;
+  margin-bottom: 4px;
+}
+
+.descriptions p {
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #DCDCDC;
+  margin-bottom: 20px;
+}
+
+.social-medias {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-medias i {
+  font-size: 30px;
+  color: #918E9B;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.social-medias i:hover {
+  color: #DCDCDC;
+}
+
+.social-medias i:active {
+  opacity: 0.8;
+}
